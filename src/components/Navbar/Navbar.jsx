@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 
   const links = <>
-  <li><NavLink to='/'>Home</NavLink></li>
-  <li><NavLink to='/project'>Projects</NavLink></li>
+  <li><NavLink to='/' className={({isActive}) => isActive? 'border border-white p-2' : ''}>Home</NavLink></li>
+  <li><NavLink to='/project' className={({isActive}) => isActive? 'border border-white p-2' : ''}>Projects</NavLink></li>
   </>
 
     return (
@@ -32,7 +33,7 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <a className="btn btn-ghost text-xl">Hi, I'm Tinny!</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
