@@ -13,7 +13,7 @@ const skills = [
 
 const Skills = () => {
     return (
-        <>
+        <section>
             <h2 className="relative text-center text-2xl font-bold mt-10 mb-3 ">My Skills</h2>
             <div className="text-xl text-center  mb-6">
                 <p>
@@ -39,7 +39,7 @@ const Skills = () => {
                     ))}
                 </div>
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-green-400 to-blue-500 animate-movingBackground"></div>
-            </div></>
+            </div></section>
     );
 };
 
