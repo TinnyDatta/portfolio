@@ -25,9 +25,9 @@ const Contact = () => {
       };
 
     return (
-        <div className="mb-10">
+        <div id="contact" className="mb-10">
            <h2 className="relative text-center text-2xl font-bold my-5 ">Get In Touch</h2> 
-           <div className="flex sm:flex-col md:flex-col lg:flex-row justify-between">
+           <div className="flex sm:items-center sm:flex-col md:flex-row lg:flex-row justify-between">
             <div>
                 <h2 className="text-2xl my-3">Contact Info</h2>
                 <div className="flex items-center gap-2 py-2 text-lg "><FaPhoneAlt /> <p>+880 1741632656</p> </div>
@@ -35,7 +35,7 @@ const Contact = () => {
                 <div className="text-xl">Address</div>
                 <div className="flex items-center gap-2 pb-2 text-lg "><FaLocationDot /> <p>Sylhet, Bangladesh</p> </div>
             </div>
-            <div className="flex-1">
+            <div>
                 <h2 className="text-2xl my-3">Send Email</h2>
                 <div>
                 <form ref={form} onSubmit={sendEmail}>

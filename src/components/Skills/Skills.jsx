@@ -13,7 +13,7 @@ const skills = [
 
 const Skills = () => {
     return (
-        <section>
+        <section id='skills'>
             <h2 className="relative text-center text-2xl font-bold mt-10 mb-3 ">My Skills</h2>
             <div className="text-xl text-center  mb-6">
                 <p>

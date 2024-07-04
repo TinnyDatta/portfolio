@@ -1,7 +1,7 @@
 
 const Banner = () => {
   return (
-    <div className="flex justify-center items-center bg-blue-50 p-5">
+    <div id="banner" className="flex justify-center items-center bg-blue-50 p-5">
       <div className="flex flex-col items-center text-center max-w-2xl w-full p-5 border border-gray-200 rounded-lg bg-white shadow-md animate-fadeIn">
         <div className="mb-5 animate-slideIn">
           <img src="/profile.jpg" alt="Tinny datta" className="w-36 h-36 rounded-full object-cover" />
