@@ -42,7 +42,11 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+  <div className="avatar">
+    <div className="w-12 rounded-full">
+      <img src="/profile.jpg" />
+    </div>
+  </div>
   </div>
 </div>
         </div>

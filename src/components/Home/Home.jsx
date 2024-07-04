@@ -1,4 +1,5 @@
 import Banner from "../Banner/Banner";
+import Education from "../Education/Education";
 import Skills from "../Skills/Skills";
 
 
@@ -6,9 +7,8 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <section id="skills">
-        <Skills></Skills>
-      </section>
+            <Skills></Skills>
+            <Education></Education>
         </div>
     );
 };
