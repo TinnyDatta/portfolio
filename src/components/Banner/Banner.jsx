@@ -1,4 +1,4 @@
-import { FaDownload } from "react-icons/fa";
+
 const Banner = () => {
   return (
     <div className="flex justify-center items-center bg-blue-50 p-5">
@@ -9,10 +9,12 @@ const Banner = () => {
         <h1 className="text-4xl font-bold mb-2">Tinny Datta</h1>
         <h2 className="text-2xl text-gray-600 mb-5">Junior Web Developer</h2>
         <p className="text-lg leading-relaxed">
-          I am Tinny Datta, an enthusiastic and progressive Junior Web Developer. I am currently learning programming and web development. My goal is to become proficient in web development and work successfully on various web projects. I am skilled in HTML, CSS, and JavaScript and currently learning React.js and Node.js. I also known to MongoDB, Express.js and used in some of projects. I am always eager to learn new technologies and aspire to become a professional web developer.
+          I am Tinny Datta, an enthusiastic and progressive Junior Web Developer. I am currently learning programming and web development. My goal is to become proficient in web development and work successfully on various web projects. I am skilled in HTML, CSS, and JavaScript and currently learning React.js and Node.js. I also known to MongoDB, Express.js and used these in some of projects. I am always eager to learn new technologies and aspire to become a professional web developer.
         </p>
-        <div className="my-4">
-        <button className="btn text-white btn-accent hover:bg-royalblue"> <FaDownload /> Download CV</button>
+        <div className="my-3">
+        <button className="btn text-white btn-accent hover:bg-royalblue"> 
+          <a href="/resume.pdf" download='resume'>Download CV</a>
+          </button>
           </div>
       </div>
     </div>
